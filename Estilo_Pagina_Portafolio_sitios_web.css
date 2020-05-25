@@ -1,0 +1,301 @@
+body{
+ background-image: url("../Fotos/portada5.jpg");
+ background-attachment: fixed;
+}
+*{
+	margin:0;
+	padding: 0;
+}
+header{
+	width: 100%;
+	height: 100px;
+}
+nav{
+	margin: 120px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+nav ul{
+	list-style: none;
+}
+nav > ul{
+	font-family: Sunday Best;
+	display: table;
+	overflow: hidden;
+	width: 100%;
+    background-color:#000;
+    position: relative;
+}
+nav > ul > li{
+	display: table-cell;
+}
+
+/*sub-menus*/
+nav > ul > li:hover > ul {
+	display: block;
+}
+nav > ul > li > ul {
+	display: block;
+	position:relative;
+	background:#000;
+	left:0px;
+}
+
+nav > ul > li > ul{
+	display: none;
+	font-family: Arial;
+}
+nav > ul li a{
+	color: #fff;
+	display: block;
+	line-height: 20px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	-webKit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+nav > ul > li > ul > li a:hover {
+	background:#0e5061;
+}
+nav > ul > li > a span {
+	background:#174459;
+	display: block;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	position: absolute;
+	top: -55px;
+	-webKit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+}
+nav > ul > li > a span .icon {
+	display:block;
+	line-height:60px;
+}
+nav > ul > li > a:hover > span {
+	top: 0;
+}
+/*colores*/
+nav ul li a .primero {
+	background:#0e5061;
+}
+nav ul li a .segundo {
+	background:#5da5a2;
+}
+nav ul li a .tercero {
+	background:#f25724;
+}
+nav ul li a .cuarto {
+	background:#174459;
+}
+nav ul li a .sexto {
+	background:#5da5a2;
+}
+.logo{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	margin-left: 530px;
+	margin-top: -170px;
+}
+
+
+ /*Quiénes somos?*/
+
+ .sqs{
+   width: 1343px;
+   height: 900px;
+   background-color: white;
+   position: absolute;
+   margin-top: 350px;
+   
+}
+ .hcon{
+ 	font-family: Sunday Best;
+ 	position: absolute;
+ 	color: #000;
+ 	margin-left: 540px;
+ 	margin-top: 50px;
+}
+ .hconp2{
+ 	font-family: Sunday Best;
+ 	position: absolute;
+ 	color: #fff;
+ 	margin-left: 320px;
+ 	margin-top: -350px;
+}
+ .verde{
+ 	width: 560px;
+ 	height: 670px;
+ 	background-color: #5da5a2;
+ 	margin-left: 160px;
+ 	margin-right: 880px;
+ 	margin-top: 97px;
+}
+  .hcond{
+ 	font-family: Candara;
+ 	position: absolute;
+ 	color: #fff;
+ 	margin-left: 70px;
+ 	margin-right: 700px;
+ 	margin-top: 150px;
+ 	
+}
+.hcondp2{
+ 	font-family: Candara;
+ 	position: absolute;
+ 	color: #fff;
+ 	margin-left: 230px;
+ 	margin-right: 700px;
+ 	margin-top: -270px;
+ 	
+}
+ .foco{
+ 	width: 490px;
+ 	height: 500px;
+ 	position: absolute;
+ 	margin-left: 700px;
+ 	margin-top: 300px;
+ 	box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.5);
+	
+}
+
+
+/*footer*/
+footer{
+	background-color: #000;
+	width: 100%;
+	height: 400px;
+	margin-top: 337px;
+  
+}
+.hco{
+	color: #fff;
+    font-family:Sunday Best;
+    background-color: black;
+    position: absolute;
+    margin-left: 540px;
+    margin-top: 70px;
+    font-size: 30px;
+}
+.hmovil{
+	color: white;
+    font-family: Verdana;
+    position: absolute;
+    margin-top: 195px;
+    margin-left: 540px;
+  
+}
+.hcalle{
+	color: white;
+    font-family: Verdana;
+    position: absolute;
+    margin-top: 230px;
+    margin-left: 540px;
+
+}
+.sredes1{
+	width: 255px;
+	height: 60px;
+	position: absolute;
+	background-color: #000;
+	margin-top: -102px;
+	margin-left: 540px;
+}
+.sredes2{
+	width: 63px;
+	height: 60px;
+	position: absolute;
+	background-color: #000;
+	margin-top: -102px;
+	margin-left: 799px;
+}
+.imgtel{
+    width:60px; 
+    height:60px;
+
+ }
+ .ubic{
+    width:60px; 
+    height:60px;
+   
+ }
+ .fb{
+    width:60px; 
+    height:60px;
+   
+ }
+ .imgwhats{
+    width:60px; 
+    height:60px;
+   
+ }
+ .ins{
+    width:60px; 
+    height:60px;
+ }
+ .f1{
+ 	width: 450px;
+ 	height: 250px;
+ 	margin-top: 100px;
+ 	margin-left: 120px;
+ 	float: left;
+ }
+  .f2{
+ 	width: 140px;
+ 	height: 140px;
+ 	margin-top: 165px;
+ }
+ 
+  .f3{
+ 	width: 350px;
+ 	height: 150px;
+ 	margin-top: -40px;
+ 	margin-left: 100px;
+ }
+ 
+  .f4{
+ 	width: 250px;
+ 	height: 150px;
+ 	float: left;
+ 	margin-left: -350px;
+ 	margin-top: 400px;
+ }
+  .f5{
+ 	width: 250px;
+ 	height: 150px;
+ 	margin-top: 100px;
+ }
+ 
+  .f6{
+ 	width: 150px;
+ 	height: 150px;
+ 	margin-left: 100px;
+ 	margin-top: 100px;
+ }
+ 
+  .f7{
+ 	width: 250px;
+ 	height: 150px;
+ 	float: left;
+ 	margin-left: -350px;
+ 	margin-top: 350px;
+ }
+ 
+  .f8{
+ 	width: 250px;
+ 	height: 150px;
+ 	margin-left: -500px;
+ 	position: absolute;
+ 	margin-top: 350px;
+ }
+ 
+
